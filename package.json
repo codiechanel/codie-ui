@@ -1,5 +1,5 @@
 {
-  "name": "codie-ui",
+  "name": "@codiechanel/codie-ui",
   "version": "1.0.0",
   "description": "codie-ui React component",
   "main": "lib/index.js",
@@ -23,6 +23,7 @@
     "react": "16.x"
   },
   "devDependencies": {
+    "material-ui": "^1.0.0-beta.34",
     "nwb": "0.21.x",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
