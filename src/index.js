@@ -8,10 +8,11 @@
 
 
 // export Loader from './Loader';
-import TextBelowIcon from './TextBelowIcon';
-export { TextBelowIcon };
-
 import React, {Component} from 'react'
+import TextBelowIcon from './TextBelowIcon';
+import Loader from './Loader';
+
+export { TextBelowIcon, Loader };
 
 export default class extends Component {
   render() {
