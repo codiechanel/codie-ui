@@ -11,13 +11,17 @@
 import React, {Component} from 'react'
 import TextBelowIcon from './TextBelowIcon';
 import Loader from './Loader';
+import SlidePanel from './SlidePanel'
+import Animated from './Animated'
+import IconText from './IconText'
 
-export { TextBelowIcon, Loader };
+
+export { TextBelowIcon, Loader, SlidePanel, Animated, IconText };
 
 export default class extends Component {
   render() {
     return <div>
-      <h2>Welcome to React components</h2>
+      <h2>Welcome to React nice components</h2>
     </div>
   }
 }

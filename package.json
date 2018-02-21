@@ -36,5 +36,6 @@
   "repository": "https://github.com/codiechanel/codie-ui",
   "keywords": [
     "react-component"
-  ]
+  ], 
+  "externals" : ["react","react-dom","prop-types", "material-ui", "material-ui/Progress", "material-ui/Typography","material-ui/Icon", "material-ui/styles"]
 }
