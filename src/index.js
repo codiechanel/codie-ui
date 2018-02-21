@@ -13,10 +13,11 @@ import TextBelowIcon from './TextBelowIcon';
 import Loader from './Loader';
 import SlidePanel from './SlidePanel'
 import Animated from './Animated'
+import Animated2 from './Animated2'
 import IconText from './IconText'
 
 
-export { TextBelowIcon, Loader, SlidePanel, Animated, IconText };
+export { TextBelowIcon, Loader, SlidePanel, Animated,Animated2,  IconText };
 
 export default class extends Component {
   render() {
