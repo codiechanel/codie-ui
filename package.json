@@ -11,6 +11,7 @@
     "umd"
   ],
   "scripts": {
+    "b": "simple-pack lib",
     "build": "nwb build-react-component",
     "clean": "nwb clean-module && nwb clean-demo",
     "start": "nwb serve-react-demo",
@@ -20,13 +21,12 @@
   },
   "dependencies": {},
   "peerDependencies": {
-    "react": "16.x", 
+    "react": "^16.2.0",
     "material-ui": "^1.0.0-beta.34",
     "react-dom": "^16.2.0"
   },
   "devDependencies": {
     "material-ui": "^1.0.0-beta.34",
-    "nwb": "0.21.x",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },
@@ -36,6 +36,15 @@
   "repository": "https://github.com/codiechanel/codie-ui",
   "keywords": [
     "react-component"
-  ], 
-  "externals" : ["react","react-dom","prop-types", "material-ui", "material-ui/Progress", "material-ui/Typography","material-ui/Icon", "material-ui/styles"]
+  ],
+  "externals": [
+    "react",
+    "react-dom",
+    "prop-types",
+    "material-ui",
+    "material-ui/Progress",
+    "material-ui/Typography",
+    "material-ui/Icon",
+    "material-ui/styles"
+  ]
 }
