@@ -8,16 +8,17 @@
 
 
 // export Loader from './Loader';
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 import TextBelowIcon from './TextBelowIcon';
 import Loader from './Loader';
 import SlidePanel from './SlidePanel'
 import Animated from './Animated'
 import Animated2 from './Animated2'
 import IconText from './IconText'
+import Flex from './Flex'
 
 
-export { TextBelowIcon, Loader, SlidePanel, Animated,Animated2,  IconText };
+export { TextBelowIcon, Loader, SlidePanel, Animated, Animated2, IconText, Flex };
 
 export default class extends Component {
   render() {

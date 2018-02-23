@@ -1,1 +1,5 @@
+we can use 
+var externals = require('webpack-node-externals')()
+this would make all modules as external
+
     "nwb": "0.21.x",

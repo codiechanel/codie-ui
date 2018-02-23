@@ -17,7 +17,7 @@ function IconText(props) {
 
   return (
     <div
-      style={{  marginRight: 4, display, flexDirection: "row", alignItems: "center" }}
+      style={{  marginRight: 4, display: "flex", flexDirection: "row", alignItems: "center" }}
     >
       <Icon
         style={{
