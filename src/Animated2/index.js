@@ -34,7 +34,7 @@ class App extends React.Component {
    * @param {obj} nextState 
    */
   componentWillUpdate(nextProps, nextState) {
-    console.log("update");
+    // console.log("update");
     this.animate()
   }
 

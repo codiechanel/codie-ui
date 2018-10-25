@@ -16,9 +16,10 @@ import Animated from './Animated'
 import Animated2 from './Animated2'
 import IconText from './IconText'
 import Flex from './Flex'
+import Utils from './Utils'
 
 
-export { TextBelowIcon, Loader, SlidePanel, Animated, Animated2, IconText, Flex };
+export { Utils, TextBelowIcon, Loader, SlidePanel, Animated, Animated2, IconText, Flex };
 
 export default class extends Component {
   render() {
